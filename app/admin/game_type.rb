@@ -1,4 +1,5 @@
 ActiveAdmin.register GameType do
+  permit_params :type_name
 
 
   # See permitted parameters documentation:
